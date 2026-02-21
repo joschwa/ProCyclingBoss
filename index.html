@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pro Cycling Boss</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Scores</h1>
+
+    <div class="controls">
+      <label for="category">Category</label>
+      <select id="category">
+        <option value="m" selected>Men</option>
+        <option value="w">Women</option>
+      </select>
+
+      <button id="reload" type="button" title="Reload files">Reload</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="status" class="status" aria-live="polite"></div>
+
+    <section class="grid" id="grid">
+      <!-- player panels injected here -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Poppy is yet to choose a side...</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

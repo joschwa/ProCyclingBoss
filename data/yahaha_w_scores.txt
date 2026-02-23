@@ -1,4 +1,4 @@
-TOTAL	4972
+TOTAL	5072
 lorena-wiebes	220
 marianne-vos	0
 niamh-fisher-black	185
@@ -12,7 +12,7 @@ amanda-spratt	193
 elise-chabbey	3
 puck-pieterse	0
 cat-ferguson	310
-paula-blasi	456
+paula-blasi	556
 chiara-consonni	55
 linda-zanetti	13
 anna-henderson	183

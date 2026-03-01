@@ -1,4 +1,5 @@
 // const puppeteer = require('puppeteer');
+const fs = require('fs');
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 
@@ -9,9 +10,19 @@ puppeteer.use(StealthPlugin());
 async function launchBrowser(blind, htmlSite, restrictSize=true){
     // const iPhone = KnownDevices['iPhone 13 Pro']; // Or iPhone 12, 11, etc.
 
+    // Define the potential paths
+    const paths = ['/usr/bin/chromium-browser', '/usr/bin/chromium'];
+
+    // Find the first path that actually exists on the current system
+    const executablePathFound = paths.find(path => fs.existsSync(path));
+
+    if (!executablePathFound) {
+      throw new Error("Chromium was not found at /usr/bin/chromium-browser or /usr/bin/chromium. Please install it.");
+    }
+
     const browser = await puppeteer.launch({
     headless: blind, // Set to true if you don't want to see the browser
-    executablePath: "/usr/bin/chromium",
+    executablePath: executablePathFound,
     args: ['--no-sandbox', '--disable-setuid-sandbox'] 
     });
 

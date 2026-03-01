@@ -1,6 +1,7 @@
 // const puppeteer = require('puppeteer');
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+
 puppeteer.use(StealthPlugin());
 // const { KnownDevices } = require('puppeteer');
 
@@ -10,6 +11,7 @@ async function launchBrowser(blind, htmlSite, restrictSize=true){
 
     const browser = await puppeteer.launch({
     headless: blind, // Set to true if you don't want to see the browser
+    executablePath: "/usr/bin/chromium",
     args: ['--no-sandbox', '--disable-setuid-sandbox'] 
     });
 
@@ -45,8 +47,14 @@ async function launchBrowser(blind, htmlSite, restrictSize=true){
     else interceptRequest.continue();
     });
     
+    page.setDefaultTimeout(180000);
+    page.setDefaultNavigationTimeout(180000);
     // Navigate to a webpage
-    await page.goto(htmlSite);
+    console.log('initial_html', htmlSite);
+    await page.goto(htmlSite, {
+    waitUntil: "domcontentloaded",
+    timeout: 200000
+    });
     // const filehtml = "file:///home/jrl/projects/scrppcs/ProCyclingStats Best Rider Ranking.html"
     // await page.goto(filehtml);
 

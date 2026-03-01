@@ -1,13 +1,10 @@
 require("dotenv").config();
+const path = require("path");
 const fs = require("fs");
 const launchBrowser = require("./launchBrowser.js");
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 function rand(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
-
-
-
-
 
 const sitehtml = process.env.sitehtml;
 
@@ -17,8 +14,9 @@ class Team {
     this.season = season;
     this.page = page;
 
-    this.link_path = link_path || `${name}_links.txt`;
-    this.outputPath = outputPath || `${name}_scores.txt`;
+    this.outputPath = path.join(__dirname, outputPath || `${name}_scores.txt`);
+    this.link_path = path.join(__dirname, link_path || `${name}_links.txt`);
+
 
     this.riderLinks = [];
     this.points = [];
@@ -45,11 +43,11 @@ class Team {
 
       // await sleep(rand(2500, 6500));
       // if ((i + 1) % 7 === 0) await sleep(rand(20000, 45000));
-      await this.page.goto(url, { waitUntil: "domcontentloaded" });
+      await this.page.goto(url, { timeout: 200000, waitUntil: "domcontentloaded" });
 
       await this.page.waitForFunction(
         () => document.querySelector(".rdrSeasonSum")?.innerText.includes("UCI points"),
-        { timeout: 10000 }
+        { timeout: 200000 }
       );
 
       const uciPoints = await this.page.$eval(".rdrSeasonSum", (el) => {
@@ -87,7 +85,7 @@ class Team {
 //   }
 
 (async () => {
-  const headless = true;
+  const headless = "new";
   const page = await launchBrowser(headless, sitehtml);
   const for_season = "2026"
 

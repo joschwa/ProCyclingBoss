@@ -178,6 +178,7 @@ const players = [
   reloadBtn.addEventListener("click", () => {
     loadAndRender(categoryEl.value);
   });
-  
+
   // Initial render
   loadAndRender(categoryEl.value);
+  loadLastUpdated();

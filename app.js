@@ -197,9 +197,7 @@ async function loadLastUpdated() {
     const formatted = new Date(commitDate).toLocaleString(undefined, {
       year: "numeric",
       month: "short",
-      day: "numeric",
-      hour: "2-digit",
-      minute: "2-digit"
+      day: "numeric"
     });
 
     document.getElementById("last-updated").textContent = formatted;
@@ -215,6 +213,8 @@ function detectRepoFromLocation() {
 
   const owner = host.split(".")[0];
   const repo = pathParts[0];
+  console.log('owner:', owner);
+  console.log('repo:', repo);
 
   return { owner, repo };
 }

@@ -194,11 +194,7 @@ async function loadLastUpdated() {
     const commits = await resp.json();
     const commitDate = commits[0].commit.committer.date;
 
-    const formatted = new Date(commitDate).toLocaleString(undefined, {
-      year: "numeric",
-      month: "short",
-      day: "numeric"
-    });
+    const formatted = new Date(commitDate).toISOString().split("T")[0];
 
     document.getElementById("last-updated").textContent = formatted;
 

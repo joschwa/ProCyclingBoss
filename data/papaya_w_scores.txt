@@ -1,4 +1,4 @@
-TOTAL	4131
+TOTAL	4256
 demi-vollering	715
 marlen-reusser	85
 pauline-ferrand-prevot	0
@@ -16,6 +16,6 @@ liane-lippert	383
 mireia-benito	371
 cedrine-kerbaol	78
 nienke-veenhoven	115
-lara-gillespie	185
+lara-gillespie	310
 femke-de-vries	355
 margaux-vigie	24

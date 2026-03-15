@@ -1,11 +1,11 @@
-TOTAL	4050
+TOTAL	4055
 tadej-pogacar	500
 remco-evenepoel	727
 mathieu-van-der-poel	520
 joao-almeida	340
 olav-kooij	0
 tim-merlier	0
-primoz-roglic	20
+primoz-roglic	25
 florian-lipowitz	77
 jasper-philipsen	41
 diego-ulissi	208

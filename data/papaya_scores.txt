@@ -1,4 +1,4 @@
-TOTAL	11447
+TOTAL	11527
 jonas-vingegaard	1219
 isaac-del-toro	1689
 mads-pedersen	588
@@ -13,7 +13,7 @@ giulio-ciccone	248
 michael-storer	142
 matteo-jorgenson	890
 ben-healy	216
-christian-scaroni	896
+christian-scaroni	976
 jai-hindley	44
 matthew-brennan	670
 lenny-martinez	1038

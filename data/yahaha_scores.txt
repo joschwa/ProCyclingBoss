@@ -1,7 +1,7 @@
-TOTAL	9271
-tadej-pogacar	1300
-remco-evenepoel	987
-mathieu-van-der-poel	1140
+TOTAL	11231
+tadej-pogacar	2100
+remco-evenepoel	1507
+mathieu-van-der-poel	1780
 joao-almeida	348
 olav-kooij	0
 tim-merlier	3

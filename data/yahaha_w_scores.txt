@@ -1,4 +1,4 @@
-TOTAL	15590
+TOTAL	15645
 lorena-wiebes	1870
 marianne-vos	965
 niamh-fisher-black	345
@@ -8,11 +8,11 @@ elisa-balsamo	815
 ally-wollaston	944
 urska-zigart	21
 noemi-ruegg	1880
-amanda-spratt	193
+amanda-spratt	198
 elise-chabbey	955
 puck-pieterse	1269
 cat-ferguson	855
-paula-blasi	611
+paula-blasi	661
 chiara-consonni	620
 linda-zanetti	80
 anna-henderson	191

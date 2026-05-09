@@ -1,4 +1,4 @@
-TOTAL	15508
+TOTAL	15703
 jonas-vingegaard	1219
 isaac-del-toro	1689
 mads-pedersen	1188
@@ -9,12 +9,12 @@ oscar-onley	199
 arnaud-de-lie	531
 mattias-skjelmose-jensen	979
 jay-vine	665
-giulio-ciccone	298
+giulio-ciccone	393
 michael-storer	272
 matteo-jorgenson	890
 ben-healy	232
-christian-scaroni	1271
-jai-hindley	104
+christian-scaroni	1351
+jai-hindley	124
 matthew-brennan	670
 lenny-martinez	1533
 biniam-girmay	610

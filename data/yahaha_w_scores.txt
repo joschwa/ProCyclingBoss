@@ -1,4 +1,4 @@
-TOTAL	21325
+TOTAL	21575
 lorena-wiebes	1870
 marianne-vos	1025
 niamh-fisher-black	540
@@ -11,7 +11,7 @@ noemi-ruegg	2380
 amanda-spratt	201
 elise-chabbey	1255
 puck-pieterse	2394
-cat-ferguson	855
+cat-ferguson	1105
 paula-blasi	3471
 chiara-consonni	620
 linda-zanetti	80

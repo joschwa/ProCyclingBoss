@@ -1,4 +1,4 @@
-TOTAL	22812
+TOTAL	22817
 demi-vollering	3490
 marlen-reusser	485
 pauline-ferrand-prevot	1437
@@ -12,7 +12,7 @@ sarah-van-dam	1053
 anna-van-der-breggen	2674
 yara-kastelijn	195
 karlijn-swinkels	1893
-liane-lippert	782
+liane-lippert	787
 mireia-benito	429
 cedrine-kerbaol	488
 nienke-veenhoven	566

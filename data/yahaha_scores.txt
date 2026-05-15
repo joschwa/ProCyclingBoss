@@ -1,10 +1,10 @@
-TOTAL	18222
+TOTAL	18442
 tadej-pogacar	4360
 remco-evenepoel	2527
 mathieu-van-der-poel	2220
 joao-almeida	348
 olav-kooij	0
-tim-merlier	423
+tim-merlier	453
 primoz-roglic	542
 florian-lipowitz	1270
 jasper-philipsen	1271
@@ -15,7 +15,7 @@ jhonatan-narvaez	230
 kevin-vauquelin	636
 richard-carapaz	123
 egan-bernal	740
-thymen-arensman	291
+thymen-arensman	316
 kaden-groves	2
-felix-gall	453
-derek-gee	190
+felix-gall	583
+derek-gee	225

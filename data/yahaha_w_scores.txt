@@ -1,4 +1,4 @@
-TOTAL	21581
+TOTAL	21639
 lorena-wiebes	1870
 marianne-vos	1025
 niamh-fisher-black	540
@@ -16,6 +16,6 @@ paula-blasi	3471
 chiara-consonni	620
 linda-zanetti	80
 anna-henderson	191
-dominika-wlodarczyk	1014
-caroline-andersson	165
+dominika-wlodarczyk	1064
+caroline-andersson	173
 eleonora-camilla-gasparrini	1072

@@ -1,4 +1,4 @@
-TOTAL	30572
+TOTAL	30597
 demi-vollering	5435
 marlen-reusser	883
 pauline-ferrand-prevot	1437
@@ -11,11 +11,11 @@ sarah-gigante	0
 sarah-van-dam	1113
 anna-van-der-breggen	4059
 yara-kastelijn	1018
-karlijn-swinkels	1893
+karlijn-swinkels	1901
 liane-lippert	873
 mireia-benito	776
 cedrine-kerbaol	637
-nienke-veenhoven	944
+nienke-veenhoven	961
 lara-gillespie	1345
 femke-de-vries	1177
 margaux-vigie	132

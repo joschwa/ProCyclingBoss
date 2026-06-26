@@ -1,4 +1,4 @@
-TOTAL	26051
+TOTAL	26101
 tadej-pogacar	5088
 remco-evenepoel	2527
 mathieu-van-der-poel	2280
@@ -18,4 +18,4 @@ egan-bernal	1040
 thymen-arensman	1326
 kaden-groves	2
 felix-gall	2068
-derek-gee	1113
+derek-gee	1163
